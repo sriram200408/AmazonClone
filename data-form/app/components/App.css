@@ -1,0 +1,105 @@
+*{
+  margin: none;
+}
+.inputbox {
+  border-radius: 5px;
+  width: 282px;
+  height: 100px;
+
+  background: white;
+  position: relative;
+  top: 5px;
+
+
+}
+.dropdown {
+  width: 282px;
+  border-radius: 5px;
+ 
+  background: none;
+  position: relative;
+  top: 5px;
+
+}
+.mainform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  backdrop-filter: blur(20px);
+  padding: 6rem;
+  margin: 0.5rem;
+  width: 30vh;
+  height: 40vh;
+  background: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  right: 12rem;
+}
+.submitbutton {
+  margin-top: 15px;
+  background: #dd5b36;
+  border: 1px solid white;
+  padding: 1rem;
+  width: 200px;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: 525;
+  color:white;
+  position: relative;
+  top: 2.5rem;
+}
+.App{
+   background : rgb(44, 43, 43);
+   background-size: auto;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 25px;
+   border: 20px solid rgb(44, 43, 43);
+}
+.itemid {
+  border-radius: 100px;
+}
+
+#fervid {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  object-position: center top;
+  bottom: 22.5rem;
+  left: 12rem;
+}
+.overall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#dataentry {
+  position: relative;
+  bottom: 6rem;
+  color: #da4f27;
+}
+.device {
+  position: relative;
+  right: 0rem;
+  font-weight: 500;
+  top: 0px;
+}
+.selectbar {
+  position: relative;
+  bottom: 3rem;
+}
+.jsoninput {
+position: relative;
+bottom: 15px;
+}
